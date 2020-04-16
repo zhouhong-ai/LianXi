@@ -24,6 +24,7 @@ public class GradeController {
 	@RequestMapping("/login")
 	public String loginView2(){
 		System.out.println("1111");
+		System.out.println("333");
 		return "login";
 	}
 	
